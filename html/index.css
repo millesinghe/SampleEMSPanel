@@ -1,0 +1,88 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.containerHeading {
+    background-color: rgb(168, 66, 66);   
+    padding: 20px;
+    color: white;
+    position: relative;
+    /*Sets how much it should be down from the top of the screen*/
+    left: 50%;
+    /*Sets how much it should be left from the screen.*/
+    transform: translate(-50%, -24%); 
+    border-radius: 7px;
+}
+
+#container {
+    font-size: 20px;
+    padding: 25px;
+    color: white;
+    position: fixed;
+    /* This sets the div to a fixed place*/
+    top: 50%;
+    /*Sets how much it should be down from the top of the screen*/
+    left: 50%;
+    /*Sets how much it should be left from the screen.*/
+    transform: translate(-50%, -50%);
+    background-color: rgb(240 149 149);   
+    width: 20%;
+    /*Sets the width of the div*/
+    /*Now this one should be obvious.*/
+    vertical-align: middle;
+    /*Aligns the text within div to middle*/
+    text-align: center;
+    /*Sets the div text to the center*/
+    height: 15%;
+    /*Sets the height of the div*/
+    border: 5px solid #111010;
+    border-radius: 7px;
+}
+
+button {
+    background-color: aliceblue;
+    padding: 12px;
+}
+
+#txtMargin {
+    display: grid; 
+    grid-template-columns: 50% 50%; 
+    gap: 0px 0px;
+}
+
+
+#alert {
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 15px;
+    padding: 12px;
+    margin: 5px;
+}
+
+#close {
+    background-color: #ef390bb5;
+    color: white;
+} 
+
+#submit {
+    background-color: #059c05e0;
+    color: white;
+} 
+
+#timebuy{
+    background-color: #220befb5;
+    color: white;
+} 
+
+#responder {
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 15px;
+    padding: 12px;
+    margin: 5px;
+
+}
+
